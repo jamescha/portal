@@ -12,6 +12,15 @@
   <script type="text/javascript" src="js/infinite-rotator.js"></script>
 </head>
 <body class="login-page">
+	<div id="rotating-item-wrapper">
+			<img src="images/5Qs-landing.png" alt="landing picture" class="rotating-item" width="971" height="239" />
+			<img src="images/Quality-bed.png" alt="bed picture" class="rotating-item" width="971" height="239" />
+			<img src="images/Quality-brkfst.png" alt="breakfast picture" class="rotating-item" width="971" height="239" />
+			<img src="images/Quality-building.png" alt="building picture" class="rotating-item" width="971" height="239" />
+			<img src="images/Quality-coffee.png" alt="coffee picture" class="rotating-item" width="971" height="239" />
+			<img src="images/Quality-shwr.png" alt="shwr picture" class="rotating-item" width="971" height="239" />
+			<img src="images/Quality-svc.png" alt="svc picture" class="rotating-item" width="971" height="239" />
+	</div>	
 <!-- see README.txt for HTML customization instructions -->
 <div class="page-content" style="padding-top:100px;">
 	<div class="login-content content-box">
@@ -82,15 +91,7 @@
 		</unifi>
 
 		<unifi if="auth_password">
-			<div id="rotating-item-wrapper">
-				<img src="images/5Qs-landing.png" alt="landing picture" class="rotating-item" width="971" height="239" />
-				<img src="images/Quality-bed.png" alt="bed picture" class="rotating-item" width="971" height="239" />
-				<img src="images/Quality-brkfst.png" alt="breakfast picture" class="rotating-item" width="971" height="239" />
-				<img src="images/Quality-building.png" alt="building picture" class="rotating-item" width="971" height="239" />
-				<img src="images/Quality-coffee.png" alt="coffee picture" class="rotating-item" width="971" height="239" />
-				<img src="images/Quality-shwr.png" alt="shwr picture" class="rotating-item" width="971" height="239" />
-				<img src="images/Quality-svc.png" alt="svc picture" class="rotating-item" width="971" height="239" />
-			</div>	
+
 			<form name="input" method="post" action="/guest/login">
 				<input type="hidden" name="page_error" value="index.html" />
 				<div class="password-box">
